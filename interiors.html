@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notranjosti | Tommy's Super Cars 2.1</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    .interior-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .interior-card {
+      border-radius: 16px;
+      overflow: hidden;
+      background: var(--card-bg);
+      transition: var(--transition);
+    }
+    .interior-card:hover { transform: scale(1.03); }
+    .interior-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .interior-card p {
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: var(--gray);
+    }
+  </style>
+</head>
+<body>
+  <div class="animated-bg"></div>
+  <nav class="navbar">
+    <a href="index.html" class="logo">TOMMY'S<span>2.1</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Domov</a></li>
+      <li><a href="lamborghini.html">Lamborghini</a></li>
+      <li><a href="ferrari.html">Ferrari</a></li>
+      <li><a href="porsche.html">Porsche</a></li>
+      <li><a href="bmw.html">BMW</a></li>
+      <li><a href="mercedes.html">Mercedes</a></li>
+      <li><a href="suv.html">SUV</a></li>
+      <li><a href="tesla.html">Tesla</a></li>
+      <li><a href="interiors.html" class="active">Notranjosti</a></li>
+      <li><a href="prototypes.html">Prototipi</a></li>
+      <li><a href="history.html">Zgodovina</a></li>
+    </ul>
+    <button class="menu-toggle">☰</button>
+  </nav>
+
+  <header class="page-hero">
+    <div>
+      <h1 class="fade-in">Notranjosti</h1>
+      <p class="fade-in delay-1">Luksuz · Usnje · Alcantara · Digitalne kabine</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <p class="lead">Notranjost superavtomobila je umetnost. Od minimalistične Tesle do bogatih Ferrari in Rolls-Royce kabin – 25 pogledov v svet luksuza.</p>
+      
+      <div class="interior-grid">
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=500&q=80" alt="Interior 1"><p>Porsche 911 – klasična preciznost</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=500&q=80" alt="Interior 2"><p>Lamborghini – heksagonalni detajli</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1583121274602-3e282f38bc1f?w=500&q=80" alt="Interior 3"><p>Ferrari – rdeča strast</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=500&q=80" alt="Interior 4"><p>BMW M – športni luksuz</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=500&q=80" alt="Interior 5"><p>Mercedes – ambientna osvetlitev</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=500&q=80" alt="Interior 6"><p>Tesla – minimalizem in zaslon</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=500&q=80" alt="Interior 7"><p>Aston Martin – britanski šarm</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=500&q=80" alt="Interior 8"><p>Bentley – ročno usnje</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1553440569-bcc8999c6f7b?w=500&q=80" alt="Interior 9"><p>Rolls-Royce – star ceiling</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&q=80" alt="Interior 10"><p>McLaren – karbon in Alcantara</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=500&q=80" alt="Interior 11"><p>Audi RS – virtual cockpit</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1519245659620-e859806a8d3b?w=500&q=80" alt="Interior 12"><p>Pagani – umetnost v detajlih</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=500&q=80" alt="Interior 13"><p>Bugatti – skulptura luksuza</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1603386329225-868fa25b05f2?w=500&q=80" alt="Interior 14"><p>Koenigsegg – skandinavska preciznost</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=500&q=80" alt="Interior 15"><p>Rimac – digitalna prihodnost</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?w=500&q=80" alt="Interior 16"><p>Ferrari SF90 – hibridna kabina</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1592198084033-aade902d1aae?w=500&q=80" alt="Interior 17"><p>Lamborghini Revuelto – Y-steering</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1614200179396-2bdb77ebf81b?w=500&q=80" alt="Interior 18"><p>Purosangue – 4 sedeži</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1617704548623-340376564e68?w=500&q=80" alt="Interior 19"><p>Model X – Falcon in prostor</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1571987502227-9231b837d92a?w=500&q=80" alt="Interior 20"><p>Model Y – praktičnost</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1536700504472-0c7197105e11?w=500&q=80" alt="Interior 21"><p>Roadster koncept – ekstrem</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=500&q=80" alt="Interior 22"><p>BMW iX – panormski zaslon</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=500&q=80" alt="Interior 23"><p>AMG GT – športni sedeži</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=500&q=80" alt="Interior 24"><p>Taycan – 800V eleganca</p></div>
+        <div class="interior-card"><img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=500&q=80" alt="Interior 25"><p>Urus – super SUV kabina</p></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container"><p>Tommy's Super Cars 2.1 · Notranjosti luksuznih avtomobilov</p></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
